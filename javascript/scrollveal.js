@@ -29,6 +29,7 @@ const defaultProps = {
     origin: "top",
   });
   
+  
   /* About Section */
   ScrollReveal().reveal(".section-title", {
     ...defaultProps,
