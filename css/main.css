@@ -102,25 +102,33 @@
 
 .navbar-container{
     display: flex;
+    /* margin-left: 50px; */
+    width: 100%;
+
     justify-content: space-between;
     height: 64px;
     align-items: center;
+    /* border: solid blue; */
 }
 
 .menu-items{
     order: 2;
     display: flex;
+    /* border: solid red; */
+    margin-right: -50px;
 }
 .logo{
     order: 1;
     font-size: 2.3rem;
+    margin-left: -50px;
 }
 
 .menu-items li{
     list-style: none;
-    margin-left: 1.7rem;
+    margin-left: 2rem;
     font-size: 1.3rem;
 }
+
 
 .navbar a{
     color: rgb(255, 255, 255);
@@ -248,4 +256,7 @@
     .navbar-container input[type="checkbox"]:checked ~ .logo{
         display: none;
     }
+}
+.last-child-navbar{
+    border: none;
 }
