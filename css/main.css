@@ -65,6 +65,32 @@
 .row p{
     text-align: justify;
 }
+.row{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    
+}
+
+.project-wrapper__text{
+    padding: 15px;
+
+}
+#amzon-img-div{
+    margin-top: 30px;
+}
+#Bigbasket-img-div{
+    margin-top: 60px;
+}
+#Engagebay-img-div{
+    margin-top: 60px;
+}
+#rodan-img-div{
+    margin-top: 60px;
+    height: 400px;
+}
+#rodan-img{
+    height: 400px;
+}
+
 
 #tachstack img:hover , #skill img:hover{
     cursor: pointer;
@@ -115,7 +141,13 @@
     order: 2;
     display: flex;
     /* border: solid red; */
-    margin-right: -50px;
+    margin-right: -80px;
+    margin-top: 15px;
+}
+#resume-btn{
+    border: none;
+    margin-top: -3px;
+    margin-left: -8px;
 }
 .logo{
     order: 1;
