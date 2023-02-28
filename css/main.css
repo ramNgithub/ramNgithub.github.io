@@ -67,7 +67,7 @@
 .row p{
     text-align: justify;
 }
-<<<<<<< HEAD:css/main.css
+
 #projects-div{
     border: solid ;
     padding: 15px;
@@ -76,40 +76,33 @@
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
     
 } */
-=======
-.row{
+
+/* .row{
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
     
-}
->>>>>>> f77ad728712c5228d8637d5a7a38ab0e5d98aae6:Masai main/portfolio/ramNgithub.github.io/css/main.css
+} */
 
 .project-wrapper__text{
     padding: 15px;
 
 }
 #amzon-img-div{
-<<<<<<< HEAD:css/main.css
     margin-top: 10px;
 }
+
 #Bigbasket-img-div{
-    margin-top: 50px;
-=======
-    margin-top: 30px;
-}
-#Bigbasket-img-div{
-    margin-top: 60px;
->>>>>>> f77ad728712c5228d8637d5a7a38ab0e5d98aae6:Masai main/portfolio/ramNgithub.github.io/css/main.css
+    margin-top: 35px;
 }
 #Engagebay-img-div{
-    margin-top: 60px;
+    margin-top: 35px;
 }
 #rodan-img-div{
-    margin-top: 60px;
-    height: 400px;
+    margin-top: 70px;
+   
 }
-#rodan-img{
+/* #rodan-img{
     height: 400px;
-}
+} */
 
 
 #tachstack img:hover , #skill img:hover{
@@ -118,6 +111,13 @@
     height: 120px;
 
   }
+  /* .img-fluid{
+    margin-left: -150px;
+  } */
+
+  /* #about-img-div{
+    border: none;
+  } */
 
 
 
@@ -197,6 +197,9 @@
 @media (max-width: 866px){
     .navbar{
         opacity: 0.95;
+    }
+    #iconsofsocial{
+        margin-left: -50px;
     }
 
     .navbar-container input[type="checkbox"],
@@ -311,8 +314,6 @@
 }
 .last-child-navbar{
     border: none;
-<<<<<<< HEAD:css/main.css
+
 }
-=======
-}
->>>>>>> f77ad728712c5228d8637d5a7a38ab0e5d98aae6:Masai main/portfolio/ramNgithub.github.io/css/main.css
+
