@@ -61,24 +61,30 @@
     font-weight: bold !important;
     color: #2d8ea1;
 }
-
+#iconsofsocial{
+    margin-left: -850px;
+}
 .row p{
     text-align: justify;
 }
-.row{
+#projects-div{
+    border: solid ;
+    padding: 15px;
+}
+/* .row{
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
     
-}
+} */
 
 .project-wrapper__text{
     padding: 15px;
 
 }
 #amzon-img-div{
-    margin-top: 30px;
+    margin-top: 10px;
 }
 #Bigbasket-img-div{
-    margin-top: 60px;
+    margin-top: 50px;
 }
 #Engagebay-img-div{
     margin-top: 60px;
@@ -110,7 +116,7 @@
 }
 
 .container{
-    max-width: 1200px;
+    max-width: 1100px;
     width: 90%;
     margin: auto;
 }
