@@ -67,10 +67,16 @@
 .row p{
     text-align: justify;
 }
+
 #projects-div{
     border: solid ;
     padding: 15px;
 }
+/* .row{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    
+} */
+
 /* .row{
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
     
@@ -83,19 +89,20 @@
 #amzon-img-div{
     margin-top: 10px;
 }
+
 #Bigbasket-img-div{
-    margin-top: 50px;
+    margin-top: 35px;
 }
 #Engagebay-img-div{
-    margin-top: 60px;
+    margin-top: 35px;
 }
 #rodan-img-div{
-    margin-top: 60px;
-    height: 400px;
+    margin-top: 70px;
+   
 }
-#rodan-img{
+/* #rodan-img{
     height: 400px;
-}
+} */
 
 
 #tachstack img:hover , #skill img:hover{
@@ -104,6 +111,13 @@
     height: 120px;
 
   }
+  /* .img-fluid{
+    margin-left: -150px;
+  } */
+
+  /* #about-img-div{
+    border: none;
+  } */
 
 
 
@@ -183,6 +197,9 @@
 @media (max-width: 866px){
     .navbar{
         opacity: 0.95;
+    }
+    #iconsofsocial{
+        margin-left: -50px;
     }
 
     .navbar-container input[type="checkbox"],
@@ -297,4 +314,6 @@
 }
 .last-child-navbar{
     border: none;
+
 }
+
